@@ -13,9 +13,9 @@
 	<jsp:setProperty property="grade" name="stu1" value="6"/>
 	<jsp:setProperty property="studentNumber" name="stu1" value="2022001"/>
 	
-	이름 : <jsp:getProperty property="name" name="stu1" />
- 	나이 : <jsp:getProperty property="age" name="stu1" />
-	학년 : <jsp:getProperty property="grade" name="stu1" />
+	이름 : <jsp:getProperty property="name" name="stu1<br>" />
+ 	나이 : <jsp:getProperty property="age" name="stu1<br>" />
+	학년 : <jsp:getProperty property="grade" name="stu1<br>"/>
 	학번 : <jsp:getProperty property="studentNumber" name="stu1" />
 </body>
 </html>
